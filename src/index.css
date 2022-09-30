@@ -1,0 +1,282 @@
+
+:root {
+  --primary: #F4B324;
+  --secondary: #BAF5F3;
+  --tertiary: #F6E7D8;
+  --line: #F14902;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  
+}
+
+img{
+  max-width: 100%;
+}
+
+li{
+  list-style: none;
+  margin: 0.5rem auto;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+}
+
+.heroHeader{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.headerText{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.button {
+  border-radius: 50px;
+  border: none;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+  background-color: whitesmoke;
+  text-decoration: none;
+  color: black;
+}
+
+
+.applyNowSecondary {
+  background-color: var(--secondary);
+}
+
+.buttonCourses {
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid var(--secondary);
+}
+
+
+.brandBold{
+  font-weight: bold;
+  color: white;
+}
+
+.navHeader {
+  background-color: var(--primary);
+  padding-bottom: 3rem;
+}
+
+
+.hero, .curriculum, .contact{
+  padding: 3rem;
+  color: white;
+  background-color: var(--primary);
+  min-height: 50vh;
+}
+
+.redLine {
+  height: 5px;
+  background-color: var(--line);
+  width: 25%;
+}
+
+.heroHeader, .curriculumHeader, .contactHeader{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.heroSubHeader, .curriculumSubHeader, .contactSubHeader{
+  font-size: 0.8rem;
+  color: black;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.heroTryItNow, .secondHeroTryItNow, .curriculumTryItNow, .contactTryItNow {
+  margin-right: 1rem; 
+}
+
+.heroCourses, .secondHeroCourses, .curriculumCourses, .contactCourses {
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid var(--secondary);
+}
+
+.heroImage, .curriculumImage{
+  text-align: center;
+}
+
+.homeOptions, .curriculumVirtual, .curriculumLive{
+  padding: 2rem;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.homeOptionsText, .curriculumVirtualText, .curriculumLiveText {
+  margin: 1rem auto;
+}
+
+
+.homeOptionsSubHeader, .curriculumVirtualSubHeader, .curriculumLiveSubHeader{
+  width: 60%;
+  margin: 1rem auto;
+  letter-spacing: 0.08rem;
+  font-size: 0.7rem;
+  opacity: 0.5;
+}
+
+.homeOptionsLearnMore, .curriculumVirtualLearnMore, .curriculumLiveLearnMore  {
+  background-color: var(--secondary);
+}
+
+.homeOptionsTable{
+  margin-top: 3rem;
+}
+
+.optionsImage{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  /* padding: 0 !important; */
+}
+
+.secondHero {
+  background-color: var(--primary);
+
+}
+
+.secondHeroHeader{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+
+.nodeHeader, .pythonHeader, .mlHeader{
+  font-size: 1.5rem;
+}
+
+.nodeText li, .pythonText li, .mlText li {
+  opacity: 0.5;
+}
+
+.python {
+  background-color: var(--secondary);
+}
+
+
+
+.redLineFlex{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.backEnd{
+  background-color: var(--secondary);
+}
+
+.frontEndHeader, .backEndHeader, .fullStackHeader{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.frontEndHeaderTextSmall, .backEndHeaderTextSmall, .fullStackHeaderTextSmall{
+  font-size: 18px;
+  font-style: italic;
+  opacity: 0.8;
+
+}
+
+.frontEndSubHeader, .backEndSubHeader, .fullStackSubHeader{
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.frontEndFlexTitle, .backEndFlexTitle, .fullStackFlexTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.frontEndFlexSubText, .backEndFlexSubText, .fullStackFlexSubText {
+  font-style: italic;
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+.tableButtonColor{
+  background-color: var(--secondary);
+}
+
+.formLabel {
+  color: black;
+  opacity: 0.5;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.formControl {
+  background-color: whitesmoke !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  text-align: center;
+  background-color: var(--primary);
+}
+
+
+@media (max-width: 600px){
+
+  .heroHeader{
+    font-size: 2.5rem;
+  }
+
+  .virtual {
+    margin: 1rem 0 1rem 0 !important;
+  }
+
+  .homeOptionsTable{
+    font-size: 8px;
+  }
+
+  .homeOptionsTable .button{
+    padding: 0.2rem 0.5rem;
+    font-size: 6px;
+  }
+
+  .hideOnSmall {
+    display: none;
+  }
+
+  .frontEndVirtualBox{
+    text-align: right;
+  }
+
+
+
+}
