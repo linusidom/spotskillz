@@ -4,12 +4,12 @@ import { FrontEndTable } from './FrontEndTable'
 export const FrontEnd = () => {
     return(
         <div className="frontEnd m-5">
-            <div className="row">
+            <div className="row me-0">
                 <div className="col-sm">
                     
                     <div className="redLine"></div>
                     
-                <div className="frontEndText mt-3">
+                <div className="frontEndText">
                     <p className="frontEndHeader">FrontEnd Curriculum <span className='frontEndHeaderTextSmall'>6 Weeks</span></p>
                     <p className="frontEndSubHeader headerSubText">No Pre-requisites Requires</p>
 

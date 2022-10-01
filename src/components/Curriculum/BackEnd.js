@@ -4,12 +4,12 @@ import { BackEndTable } from './BackEndTable'
 export const BackEnd = () => {
     return(
         <div className="backEnd p-5">
-            <div className="row">
+            <div className="row me-0">
                 <div className="col-sm">
                     
                     <div className="redLine"></div>
                     
-                    <div className="backEndText mt-3">
+                    <div className="backEndText">
                         <p className="backEndHeader">BackEnd Curriculum <span className='backEndHeaderTextSmall'>6 Weeks</span></p>
                         <p className="backEndSubHeader headerSubText">No Pre-requisites Requires</p>
 

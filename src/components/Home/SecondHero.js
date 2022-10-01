@@ -3,7 +3,7 @@ import developer from '../../assets/developer.png'
 
 export const SecondHero = () => {
     return(
-        <div className='hero secondHero row align-items-center py-5'>
+        <div className='hero secondHero row align-items-center py-5 me-0'>
             <div className='developer col d-none d-sm-block'>
                 <img className='fluid' src={developer} alt="sometext" />
             </div>
@@ -12,11 +12,11 @@ export const SecondHero = () => {
                 <div className="redLine"></div>
 
                 <div className="secondHeroTitle">
-                    <p className='secondHeroHeader'>Perfect Solution for any stage of your career</p>
+                    <p className='secondHeroHeader heroHeader'>Perfect Solution for any stage of your career</p>
                 </div>
                 
                 <div className="secondHeroSubHeader">
-                    <p className="secondHeroSubHeader">Pick your pace and jump right in</p>
+                    <p className="secondHeroSubHeader heroSubHeader">Pick your pace and jump right in</p>
                 </div>    
 
                 <div className="secondHeroButtons">

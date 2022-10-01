@@ -3,13 +3,13 @@ import process from '../../assets/process.png'
 
 export const CurriculumHero = () => {
     return (
-        <div className='curriculum row align-items-center'>
-            <div className='curriculumText col'>
+        <div className='curriculum row align-items-center me-0'>
+            <div className='curriculumText col-sm'>
                 
                 <div className="redLine"></div>
 
                 <div className="curriculumTitle">
-                    <p className='curriculumHeader'>Course Curriculum and Application curriculum</p>
+                    <p className='curriculumHeader heroHeader'>Course Curriculum and<br/> Application Process</p>
                 </div>
                 
                 <div className="curriculumSubHeader">
@@ -22,9 +22,9 @@ export const CurriculumHero = () => {
                 </div>
             </div> 
 
-            <div className='curriculumImage col d-none d-sm-block'>
+            <div className='curriculumImage col-sm'>
                 <div className="image">
-                    <img className='fluid' src={process} alt="sometext" />
+                    <img className='fluid curriculumHeroImage' src={process} alt="sometext" />
                 </div>
             </div>
 

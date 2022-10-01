@@ -4,17 +4,17 @@ import heroImage from '../../assets/heroImage.png'
 export const HomeHero = () => {
     return(
         
-            <div className='hero row align-items-center justify-content-evenly'>
-                <div className='heroText col'>
+            <div className='hero row align-items-center me-0'>
+                <div className='heroText col-sm'>
                     
                     <div className="redLine"></div>
 
                     <div className="heroTitle">
-                        <p className='heroHeader'>Start Learning Now</p>
+                        <p className='heroHeader'>Your Coding Roadmap to Freedom</p>
                     </div>
                     
                     <div className="heroSubHeader">
-                        <p className="heroSubHeader">Your Coding Roadmap to Freedom</p>
+                        <p className="heroSubHeader">Start Learning Now</p>
                     </div>    
 
                     <div className="heroButtons">
@@ -23,9 +23,9 @@ export const HomeHero = () => {
                     </div>
                 </div> 
 
-                <div className='heroImage col d-none d-sm-block'>
+                <div className='heroImage col-sm'>
                     <div className="image">
-                        <img className='fluid' src={heroImage} alt="sometext" />
+                        <img className='fluid homeHeroImage' src={heroImage} alt="sometext" />
                     </div>
                 </div>
 

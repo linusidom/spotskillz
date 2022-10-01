@@ -9,7 +9,7 @@ export const ContactUs = () => {
                     <div className="redLine"></div>
 
                     <div className="contactTitle">
-                        <p className='contactHeader'>Application Form</p>
+                        <p className='contactHeader heroHeader'>Application Form</p>
                     </div>
                     
                     <div className="contactSubHeader">

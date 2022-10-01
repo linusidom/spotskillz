@@ -9,7 +9,7 @@ export const FullStack = () => {
                     
                     <div className="redLine"></div>
                     
-                <div className="fullStackText mt-3">
+                <div className="fullStackText">
                     <p className="fullStackHeader">FullStack Developer Curriculum <span className='fullStackHeaderTextSmall'>12 Weeks</span></p>
                     <p className="fullStackSubHeader headerSubText">No Pre-requisites Requires</p>
 
