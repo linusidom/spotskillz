@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/spotskillz/static/css/main.1389adef.css",
-    "main.js": "/spotskillz/static/js/main.83038a5d.js",
+    "main.css": "/spotskillz/static/css/main.86b8c0f1.css",
+    "main.js": "/spotskillz/static/js/main.a1b20445.js",
     "static/media/developer.png": "/spotskillz/static/media/developer.ec2aa702dc2dd586bb20.png",
     "static/media/node.png": "/spotskillz/static/media/node.130b1cbc90e3517a5535.png",
     "static/media/python.png": "/spotskillz/static/media/python.fc953c23365860d8dcee.png",
     "static/media/heroImage.png": "/spotskillz/static/media/heroImage.68085bcfb2bfb99562c5.png",
     "static/media/ml.jpeg": "/spotskillz/static/media/ml.3b2598710c313b6517e5.jpeg",
+    "static/media/selfPacedImage.jpeg": "/spotskillz/static/media/selfPacedImage.4a21a1e838702a4d16d6.jpeg",
     "static/media/process.png": "/spotskillz/static/media/process.6d82398ce392cc876f8a.png",
     "index.html": "/spotskillz/index.html",
-    "main.1389adef.css.map": "/spotskillz/static/css/main.1389adef.css.map",
-    "main.83038a5d.js.map": "/spotskillz/static/js/main.83038a5d.js.map"
+    "main.86b8c0f1.css.map": "/spotskillz/static/css/main.86b8c0f1.css.map",
+    "main.a1b20445.js.map": "/spotskillz/static/js/main.a1b20445.js.map"
   },
   "entrypoints": [
-    "static/css/main.1389adef.css",
-    "static/js/main.83038a5d.js"
+    "static/css/main.86b8c0f1.css",
+    "static/js/main.a1b20445.js"
   ]
 }
