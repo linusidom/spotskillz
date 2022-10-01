@@ -36,15 +36,21 @@ export const HomeOptions = () => {
                     </tr>
                     <tr>
                         <th scope="row">Course Length</th>
-                        <td>Flexible</td>
+                        <td>-</td>
                         <td>6 Weeks</td>
                         <td>12 Weeks</td>
                     </tr>
                     <tr>
                         <th scope="row">Class Duration</th>
-                        <td>Flexible</td>
+                        <td>-</td>
                         <td>1 hour</td>
                         <td>1 hour</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Class Format</th>
+                        <td>-</td>
+                        <td>Zoom</td>
+                        <td>Zoom</td>
                     </tr>
                     <tr>
                         <th scope="row">Job Guarantee</th>

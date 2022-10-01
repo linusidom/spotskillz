@@ -38,8 +38,9 @@ export const ContactUs = () => {
                         <Form.Group className="mb-3" controlId="formBasicSelect">
                             <Form.Label className='formLabel'>Email address</Form.Label>
                             <Form.Select className='formControl' name="course" id='course'>
-                                <option checked value='virtual'>I'm interested in the Virtual Course</option>
-                                <option value='live'>I'm interested in the Live Classroom</option>
+                                <option checked value='frontend'>I'm interested in the Virtual FrontEnd Course</option>
+                                <option value='backend'>I'm interested in the Virtual BackEnd Course</option>
+                                <option value='fullstack'>I'm interested in the Virtual FullStack Course</option>
                             </Form.Select>
                         </Form.Group>
 
