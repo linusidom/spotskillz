@@ -14,7 +14,7 @@ export const HomeOptions = () => {
                     Pick the path that works for you
                 </p>
 
-                <p className="homeOptionsSubHeader hideOnSmall">There are many options to choose from, such as a Self Paced course that offers you the most flexibility to Instructor Led courses that allow to be part of a virtual classroom experience</p>
+                <p className="homeOptionsSubHeader hideOnSmall">There are many options to choose from, such as a Self Paced course that offers you the most flexibility, to Instructor Led courses that allow you to be part of the virtual classroom experience</p>
                 {/* <Link to='/process' className="button homeOptionsLearnMore">Learn More</Link> */}
             </div>
             <div className="table-responsive homeOptionsTable">
