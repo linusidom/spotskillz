@@ -15,6 +15,7 @@ export const Header = () => {
             <NavLink as={Link} to="/">Home</NavLink>
             <NavLink as={Link} to="/selfpaced">Courses</NavLink>
             <NavLink as={Link} to="/curriculum">Curriculum</NavLink>
+            <NavLink as={Link} to="/student">Student Section</NavLink>
             <NavLink as={Link} to="/contact">Contact Us</NavLink>
           </Nav>
         </Navbar.Collapse>
