@@ -93,7 +93,7 @@ export const FrontEndNotes = () => {
                     <td></td>
                     <td>
                       <a
-                        class="btn btn-primary"
+                        class="btn btn-primary btn-sm"
                         href="https://linusidom.github.io/spotskillz_static/htmlcheatsheet.html"
                         target="_blank"
                         rel='noreferrer'
@@ -364,7 +364,7 @@ export const FrontEndNotes = () => {
                     <td></td>
                     <td>
                       <a
-                        class="btn btn-primary"
+                        class="btn btn-primary btn-sm"
                         href="https://linusidom.github.io/spotskillz_static/csscheatsheet.html"
                         target="_blank"
                       >
