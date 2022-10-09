@@ -1,0 +1,330 @@
+:root {
+    --primary:  rgba(12,152,186, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.linkPrimary {
+    color: rgb(12,152,186);
+}
+
+.linkSecondary {
+    color: rgb(237, 38, 38);
+}
+
+.sectionHeader {
+    font-size: 2rem;
+}
+
+.sectionPara {
+    opacity: 0.5;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    letter-spacing: 0.12rem;
+    margin-top: 1rem;
+    padding-left: 2.3rem;
+}
+
+.redline {
+    width: 25%;
+    border-bottom: 5px solid red;
+    margin-bottom: 0.5rem;;
+    margin-left: 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: var(--primary);
+}
+
+.navbarLogo{
+    width: 100%;
+}
+
+.navbarHamburger {
+    display: none;
+}
+
+.navbarMenu {
+    width: 100%;
+}
+
+.navbarMenuLinks{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+img {
+    width: 70%;
+}
+
+/* HERO */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--primary);
+    padding-bottom: 2rem;
+}
+
+.heroImageDiv {
+    width: 100%;
+    text-align: center;
+}
+
+.heroText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.heroHeader {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.heroPara {
+    opacity: 0.5;
+    line-height: 1.3rem;
+    letter-spacing: 0.12rem;
+    margin-top: 1rem;
+    padding-left: 2.3rem;
+}
+
+
+
+/* SECTION ONE */
+
+.sectionOne{
+    padding-bottom: 2rem; 
+}
+
+.sectionOneText .redline {
+    margin: 0.5rem auto;
+}
+
+.sectionOneText {
+    padding: 2rem;
+    text-align: center;
+}
+
+.sectionOneImages{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* SECTION TWO */
+
+
+.sectionTwo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--primary);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sectionTwoText{
+    width: 100%;
+    text-align: right;
+}
+
+.sectionTwoImageDiv {
+    width: 100%;
+    text-align: center;    
+}
+
+.sectionTwo .redlineFlex{
+    display: flex;
+    justify-content: end;
+    padding-right: 2rem;
+}
+
+.sectionTwoHeader, .sectionTwoPara {
+    padding-right: 2rem;
+}
+
+/* SECTION THREE */
+
+
+
+.sectionThree {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sectionThreeOne, .sectionThreeTwo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionThreeOneText, .sectionThreeTwoText, .sectionThreeOneImageDiv, .sectionThreeTwoImageDiv {
+    width: 100%;
+}
+
+.sectionThreeTwoText .redlineFlex{
+    display: flex;
+    justify-content: end;
+    padding-right: 2rem;
+}
+
+.sectionThreeTwoText {
+    text-align: right;
+}
+
+.sectionThreeOneHeader {
+    padding-left: 2rem;
+}
+
+.sectionThreeOneText, .sectionThreeTwoImageDiv {
+    border-right: 3px solid var(--primary);
+}
+
+.sectionThreeOneText, .sectionThreeOneImageDiv {
+    border-bottom: 3px solid var(--primary);
+}
+
+.sectionThreeOneImageDiv, .sectionThreeTwoImageDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* CONTACT US */
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--primary);
+}
+
+.contactText, .contactForm {
+    width: 100%;
+}
+
+.contactHeader {
+    padding-left: 2rem;
+}
+
+.formLabel {
+    display: block;
+    padding: 1rem 0 0.5rem 0;
+}
+
+.formInput, .formMessage {
+    border-radius: 1rem;
+    width: 70%;
+    padding: 0.5rem;
+    border: 1px solid var(--primary)
+}
+
+.btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer {
+
+    text-align: center;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+@media (max-width: 600px){
+    .hero{
+        flex-direction: column;
+
+    }
+
+    .heroText {
+        width: 100%;
+    }
+
+    .heroPara {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    .contentImages{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .sectionThree {
+        display: none;
+    }
+
+    .contact {
+        background-color: white;
+    }
+
+    .formLabel {
+        font-size: 10px;
+    }
+
+    .sectionPara {
+        font-size: 0.5rem;
+        line-height: 0.7rem;
+    }
+
+    .sectionHeader {
+        font-size: 1rem;
+    }
+    
+    .formMessage {
+        height: 4rem;
+    }
+
+    .footer {
+        background-color: var(--primary);
+    }
+    
+}

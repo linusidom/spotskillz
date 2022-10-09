@@ -1,5 +1,7 @@
 import { Accordion } from "react-bootstrap";
 import {Link} from 'react-router-dom'
+import boxModel from '../../../assets/box_model.png'
+
 export const FrontEndNotes = () => {
   return (
     <div className="contentDiv notes">
@@ -90,13 +92,14 @@ export const FrontEndNotes = () => {
                   <tr>
                     <td></td>
                     <td>
-                      <Link
+                      <a
                         class="btn btn-primary"
-                        to="/student/frontend/htmlcheatsheet"
+                        href="https://linusidom.github.io/spotskillz_static/htmlcheatsheet.html"
                         target="_blank"
+                        rel='noreferrer'
                       >
                         HTML Cheat Sheet
-                      </Link>
+                      </a>
                     </td>
                   </tr>
                 </tbody>
@@ -362,7 +365,7 @@ export const FrontEndNotes = () => {
                     <td>
                       <a
                         class="btn btn-primary"
-                        href="css/csscheatsheet.html"
+                        href="https://linusidom.github.io/spotskillz_static/csscheatsheet.html"
                         target="_blank"
                       >
                         CSS Cheat Sheet
@@ -382,7 +385,7 @@ export const FrontEndNotes = () => {
                     <td>
                       <img
                         width="100%"
-                        src="{% static 'img/cssbox.png' %}"
+                        src={boxModel}
                         alt="box.png"
                       />
                     </td>
