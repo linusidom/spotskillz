@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/spotskillz/static/css/main.f1f3d83d.css",
-    "main.js": "/spotskillz/static/js/main.0818e4cc.js",
+    "main.js": "/spotskillz/static/js/main.906a8af5.js",
     "static/media/developer.png": "/spotskillz/static/media/developer.ec2aa702dc2dd586bb20.png",
     "static/media/node.png": "/spotskillz/static/media/node.130b1cbc90e3517a5535.png",
     "static/media/python.png": "/spotskillz/static/media/python.fc953c23365860d8dcee.png",
@@ -12,10 +12,10 @@
     "static/media/box_model.png": "/spotskillz/static/media/box_model.1a7827e694cf14ae1f28.png",
     "index.html": "/spotskillz/index.html",
     "main.f1f3d83d.css.map": "/spotskillz/static/css/main.f1f3d83d.css.map",
-    "main.0818e4cc.js.map": "/spotskillz/static/js/main.0818e4cc.js.map"
+    "main.906a8af5.js.map": "/spotskillz/static/js/main.906a8af5.js.map"
   },
   "entrypoints": [
     "static/css/main.f1f3d83d.css",
-    "static/js/main.0818e4cc.js"
+    "static/js/main.906a8af5.js"
   ]
 }
