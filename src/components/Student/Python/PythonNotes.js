@@ -10,15 +10,17 @@ export const PythonNotes = () => {
           <Accordion.Header>Basics</Accordion.Header>
           <Accordion.Body>
             <div className="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th></th>
-                  <th></th>
+                  <tr>
+                    <th></th>
+                    <th></th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>Python Basics</td>
-                    <td class="grid-table">
+                    <td className="grid-table">
                       <p>High Level Programming Language</p>
                       <p>Back End Language</p>
                       <p>Interpreted Language</p>
@@ -57,10 +59,12 @@ export const PythonNotes = () => {
           <Accordion.Header>Variables and Data Types</Accordion.Header>
           <Accordion.Body>
             <div className="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th></th>
-                  <th>Variables and Data Types</th>
+                  <tr>
+                    <th></th>
+                    <th>Variables and Data Types</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -93,12 +97,12 @@ export const PythonNotes = () => {
                       Variables should make sense to someone else
                       <br />
                       <span style={{ color: "green" }}>
-                        <i class="fas fa-check"></i>
+                        <i className="fas fa-check"></i>
                       </span>{" "}
                       hair_color = 'brown'
                       <br />
                       <span style={{ color: "red" }}>
-                        <i class="fas fa-times"></i>
+                        <i className="fas fa-times"></i>
                       </span>{" "}
                       hair_color = 73
                       <br />
@@ -186,10 +190,12 @@ export const PythonNotes = () => {
           <Accordion.Header>Printing and Commenting</Accordion.Header>
           <Accordion.Body>
             <div className="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th></th>
-                  <th>Printing</th>
+                  <tr>
+                    <th></th>
+                    <th>Printing</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -228,10 +234,12 @@ export const PythonNotes = () => {
                   </tr>
                 </tbody>
               </table>
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th></th>
-                  <th>Comments</th>
+                  <tr>
+                    <th></th>
+                    <th>Comments</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -280,10 +288,12 @@ export const PythonNotes = () => {
           <Accordion.Header>Numbers</Accordion.Header>
           <Accordion.Body>
             <div className="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th>Function</th>
-                  <th>Explanation</th>
+                  <tr>
+                    <th>Function</th>
+                    <th>Explanation</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -305,21 +315,21 @@ export const PythonNotes = () => {
                   <tr>
                     <td>Arithmetic</td>
                     <td>
-                      <i class="fas fa-plus"></i>
+                      <i className="fas fa-plus"></i>
                       <br />
-                      <i class="fas fa-minus"></i>
+                      <i className="fas fa-minus"></i>
                       <br />
-                      <i class="fas fa-asterisk"></i>
+                      <i className="fas fa-asterisk"></i>
                       <br />
-                      <i class="fas fa-slash fa-rotate-90 fa-xs"></i>
+                      <i className="fas fa-slash fa-rotate-90 fa-xs"></i>
                       <br />
-                      <i class="fas fa-slash fa-rotate-90 fa-xs"></i>
-                      <i class="fas fa-slash fa-rotate-90 fa-xs"></i>
+                      <i className="fas fa-slash fa-rotate-90 fa-xs"></i>
+                      <i className="fas fa-slash fa-rotate-90 fa-xs"></i>
                       <br />
-                      <i class="fas fa-percent fas-xs"></i>
+                      <i className="fas fa-percent fas-xs"></i>
                       <br />
-                      <i class="fas fa-asterisk"></i>
-                      <i class="fas fa-asterisk"></i>
+                      <i className="fas fa-asterisk"></i>
+                      <i className="fas fa-asterisk"></i>
                       <br />
                       <br />
                       Order of Operations PEMDAS
@@ -348,7 +358,7 @@ export const PythonNotes = () => {
                       <br />
                       print(total_bill)
                       <br />
-                      <p class="text-success">110.0</p>
+                      <p className="text-success">110.0</p>
                       <br />
                       my_bill = 100
                       <br />
@@ -358,7 +368,7 @@ export const PythonNotes = () => {
                       <br />
                       print(total_bill)
                       <br />
-                      <p class="text-danger">100.1</p>
+                      <p className="text-danger">100.1</p>
                     </td>
                   </tr>
                 </tbody>
@@ -374,14 +384,16 @@ export const PythonNotes = () => {
           <Accordion.Body>
             <div className="table-responsive text-start">
               <div>
-                <p class="text-primary">
+                <p className="text-primary">
                   my_string = 'The quick brown fox jumped over the fence'
                 </p>
-                <table class="table table-striped table-dark text-white">
+                <table className="table table-striped table-dark text-white">
                   <thead>
-                    <th width="20%">Function</th>
-                    <th width="40%">Usage</th>
-                    <th width="40%">Result</th>
+                    <tr>
+                      <th width="20%">Function</th>
+                      <th width="40%">Usage</th>
+                      <th width="40%">Result</th>
+                    </tr>
                   </thead>
                   <tbody>
                     <tr>
@@ -437,10 +449,10 @@ export const PythonNotes = () => {
                         <p>
                           my_string[1:]
                           <br />
-                          <span class="text-success">he</span> quick brown fox
+                          <span className="text-success">he</span> quick brown fox
                           jumped over the fence
                         </p>
-                        <p class="text-success">
+                        <p className="text-success">
                           my_string[0:3]
                           <br />
                           The
@@ -576,11 +588,13 @@ export const PythonNotes = () => {
           <Accordion.Body>
             <div className="table-responsive text-start">
               <div>
-                <table class="table table-striped table-dark text-white">
+                <table className="table table-striped table-dark text-white">
                   <thead>
-                    <th width="20%">Function</th>
-                    <th width="40%">Usage</th>
-                    <th width="40%">Result</th>
+                    <tr>
+                      <th width="20%">Function</th>
+                      <th width="40%">Usage</th>
+                      <th width="40%">Result</th>
+                    </tr>
                   </thead>
                   <tbody>
                     <tr>
@@ -597,7 +611,7 @@ export const PythonNotes = () => {
                           Items within lists can be numbers, strings, lists,
                           dictionaries, basically anything
                         </p>
-                        <p class="text-primary">
+                        <p className="text-primary">
                           my_list = ['a','b','c','d','e']
                         </p>
                       </td>
@@ -721,14 +735,14 @@ export const PythonNotes = () => {
                       </td>
                       <td>
                         <p>
-                          <span class="text-danger">
-                            <i class="fas fa-times"></i>
+                          <span className="text-danger">
+                            <i className="fas fa-times"></i>
                           </span>{" "}
                           my_second_list = my_list
                         </p>
                         <p>
-                          <span class="text-success">
-                            <i class="fas fa-check"></i>
+                          <span className="text-success">
+                            <i className="fas fa-check"></i>
                           </span>{" "}
                           my_second_list = [item for item in my_list]
                         </p>
@@ -802,11 +816,13 @@ export const PythonNotes = () => {
           <Accordion.Body>
             <div className="table-responsive text-start">
               <div>
-                <table class="table table-striped table-dark text-white">
+                <table className="table table-striped table-dark text-white">
                   <thead>
-                    <th width="20%">Function</th>
-                    <th width="40%">Usage</th>
-                    <th width="40%">Result</th>
+                    <tr>
+                      <th width="20%">Function</th>
+                      <th width="40%">Usage</th>
+                      <th width="40%">Result</th>
+                    </tr>
                   </thead>
                   <tbody>
                     <tr>
@@ -815,7 +831,7 @@ export const PythonNotes = () => {
                         <p>mapping of key value pairs, Unordered, Mutable</p>
                         <p>
                           Creation of a list is done with{" "}
-                          <span class="text-primary">{`{ , }`}</span> and items
+                          <span className="text-primary">{`{ , }`}</span> and items
                           are separated with commas.
                         </p>
                         <p>
@@ -825,7 +841,7 @@ export const PythonNotes = () => {
                       </td>
                       <td>
                         <p>Most Common used data type for exchanging data</p>
-                        <p class="text-primary">
+                        <p className="text-primary">
                           my_dict ={" "}
                           {`{'key1': 'value1','key2': 'value2','key3': 'value3'}`}
                         </p>
@@ -943,11 +959,13 @@ export const PythonNotes = () => {
           <Accordion.Body>
             <div className="table-responsive text-start">
               <div>
-                <table class="table table-striped table-dark text-white">
+                <table className="table table-striped table-dark text-white">
                   <thead>
-                    <th>Function</th>
-                    <th>Usage</th>
-                    <th>Result</th>
+                    <tr>
+                      <th>Function</th>
+                      <th>Usage</th>
+                      <th>Result</th>
+                    </tr>
                   </thead>
                   <tbody>
                     <tr>
@@ -956,12 +974,12 @@ export const PythonNotes = () => {
                         <p>Immutable lists</p>
                         <p>
                           Creation of a list is done with,
-                          <span class="text-primary">( , )</span> and items are
+                          <span className="text-primary">( , )</span> and items are
                           separated with commas.
                         </p>
                       </td>
                       <td>
-                        <p class="text-primary">my_tuple = ('a','b','c')</p>
+                        <p className="text-primary">my_tuple = ('a','b','c')</p>
                       </td>
                     </tr>
                     <tr>
@@ -1054,11 +1072,13 @@ export const PythonNotes = () => {
                 </table>
               </div>
               <div>
-                <table class="table table-striped table-dark text-white">
+                <table className="table table-striped table-dark text-white">
                   <thead>
-                    <th>Function</th>
-                    <th>Usage</th>
-                    <th>Result</th>
+                    <tr>
+                      <th>Function</th>
+                      <th>Usage</th>
+                      <th>Result</th>
+                    </tr>
                   </thead>
                   <tbody>
                     <tr>
@@ -1067,7 +1087,7 @@ export const PythonNotes = () => {
                         <p>Unordered collection of unique elements</p>
                       </td>
                       <td>
-                        <p class="text-primary">
+                        <p className="text-primary">
                           my_set = set([1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3,
                           3])
                         </p>
@@ -1172,10 +1192,12 @@ export const PythonNotes = () => {
                 </table>
               </div>
               <div>
-                <table class="table table-striped table-dark text-white">
+                <table className="table table-striped table-dark text-white">
                   <thead>
-                    <td>Function</td>
-                    <td>Value</td>
+                    <tr>
+                      <td>Function</td>
+                      <td>Value</td>
+                    </tr>
                   </thead>
                   <tbody>
                     <tr>
@@ -1196,39 +1218,41 @@ export const PythonNotes = () => {
           <Accordion.Body>
             <div className="table-responsive text-start">
               <div>
-                <table class="table table-striped table-dark text-white">
+                <table className="table table-striped table-dark text-white">
                   <thead>
-                    <th width="20%">Category</th>
-                    <th width="40%">Functions</th>
-                    <th width="40%">Example</th>
+                    <tr>
+                      <th width="20%">Category</th>
+                      <th width="40%">Functions</th>
+                      <th width="40%">Example</th>
+                    </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>Comparison Operators</td>
                       <td>
                         <p>
-                          <i class="fas fa-greater-than fa-xs"></i> Greater than
+                          <i className="fas fa-greater-than fa-xs"></i> Greater than
                         </p>
                         <p>
-                          <i class="fas fa-less-than fa-xs"></i> Less Than
+                          <i className="fas fa-less-than fa-xs"></i> Less Than
                         </p>
                         <p>
-                          <i class="fas fa-greater-than fa-xs"></i>{" "}
-                          <i class="fas fa-equals fa-xs"></i> Greater than or
+                          <i className="fas fa-greater-than fa-xs"></i>{" "}
+                          <i className="fas fa-equals fa-xs"></i> Greater than or
                           Equal To{" "}
                         </p>
                         <p>
-                          <i class="fas fa-less-than fa-xs"></i>{" "}
-                          <i class="fas fa-equals fa-xs"></i> Less than or equal
+                          <i className="fas fa-less-than fa-xs"></i>{" "}
+                          <i className="fas fa-equals fa-xs"></i> Less than or equal
                           to
                         </p>
                         <p>
-                          <i class="fas fa-equals fa-xs"></i>
-                          <i class="fas fa-equals fa-xs"></i>Equality
+                          <i className="fas fa-equals fa-xs"></i>
+                          <i className="fas fa-equals fa-xs"></i>Equality
                         </p>
                         <p>
-                          <i class="fas fa-exclamation fa-xs"></i>
-                          <i class="fas fa-equals fa-xs"></i> Not equal
+                          <i className="fas fa-exclamation fa-xs"></i>
+                          <i className="fas fa-equals fa-xs"></i> Not equal
                         </p>
                         <p>and / or</p>
                       </td>
@@ -1382,11 +1406,13 @@ export const PythonNotes = () => {
           <Accordion.Header>Functions</Accordion.Header>
           <Accordion.Body>
             <div className="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th>Item</th>
-                  <th>Explanation</th>
-                  <th>Example</th>
+                  <tr>
+                    <th>Item</th>
+                    <th>Explanation</th>
+                    <th>Example</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -1510,11 +1536,13 @@ export const PythonNotes = () => {
           <Accordion.Header>Object Oriented Programming</Accordion.Header>
           <Accordion.Body>
             <div className="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th width="20%">Item</th>
-                  <th width="40%">Explanation</th>
-                  <th width="40%">Example</th>
+                  <tr>
+                    <th width="20%">Item</th>
+                    <th width="40%">Explanation</th>
+                    <th width="40%">Example</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -1698,14 +1726,14 @@ export const PythonNotes = () => {
                   <tr>
                     <td>
                       Undefined Arguments -{" "}
-                      <i class="fas fa-asterisk fa-xs"></i>args
+                      <i className="fas fa-asterisk fa-xs"></i>args
                     </td>
                     <td>
                       <p>
                         We want to pass variables that haven't been defined yet
                       </p>
                       <p>
-                        <i class="fas fa-asterisk fa-xs"></i>args get put into a
+                        <i className="fas fa-asterisk fa-xs"></i>args get put into a
                         Tuple
                       </p>
                     </td>
@@ -1732,8 +1760,8 @@ export const PythonNotes = () => {
                   <tr>
                     <td>
                       Undefined KeyWord Arguments -{" "}
-                      <i class="fas fa-asterisk fa-xs"></i>
-                      <i class="fas fa-asterisk fa-xs"></i>kwargs
+                      <i className="fas fa-asterisk fa-xs"></i>
+                      <i className="fas fa-asterisk fa-xs"></i>kwargs
                     </td>
                     <td>
                       <p>
@@ -1741,8 +1769,8 @@ export const PythonNotes = () => {
                         defined yet
                       </p>
                       <p>
-                        <i class="fas fa-asterisk fa-xs"></i>
-                        <i class="fas fa-asterisk fa-xs"></i>kwargs get put into
+                        <i className="fas fa-asterisk fa-xs"></i>
+                        <i className="fas fa-asterisk fa-xs"></i>kwargs get put into
                         a Dictionary
                       </p>
                     </td>
@@ -1776,11 +1804,13 @@ export const PythonNotes = () => {
                   </tr>
                 </tbody>
               </table>
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th width="20%">Item</th>
-                  <th width="40%">Explanation</th>
-                  <th width="40%">Example</th>
+                  <tr>
+                    <th width="20%">Item</th>
+                    <th width="40%">Explanation</th>
+                    <th width="40%">Example</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -1839,11 +1869,13 @@ export const PythonNotes = () => {
           <Accordion.Header>Errors and Exceptions</Accordion.Header>
           <Accordion.Body>
             <div className="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th width="20%">Item</th>
-                  <th width="40%">Explanation</th>
-                  <th width="40%">Example</th>
+                  <tr>
+                    <th width="20%">Item</th>
+                    <th width="40%">Explanation</th>
+                    <th width="40%">Example</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -1982,11 +2014,13 @@ export const PythonNotes = () => {
           <Accordion.Header>Regular Expressions</Accordion.Header>
           <Accordion.Body>
             <div className="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th width="20%">Item</th>
-                  <th width="40%">Explanation</th>
-                  <th width="40%">Example</th>
+                  <tr>
+                    <th width="20%">Item</th>
+                    <th width="40%">Explanation</th>
+                    <th width="40%">Example</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -2168,11 +2202,13 @@ export const PythonNotes = () => {
           <Accordion.Header>Decorators</Accordion.Header>
           <Accordion.Body>
             <div className="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th width="20%">Item</th>
-                  <th width="40%">Explanation</th>
-                  <th width="40%">Example</th>
+                  <tr>
+                    <th width="20%">Item</th>
+                    <th width="40%">Explanation</th>
+                    <th width="40%">Example</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -2194,8 +2230,8 @@ export const PythonNotes = () => {
                 </tbody>
               </table>
 
-              <div class="grid-2">
-                <div class="jumbotron">
+              <div className="grid-2">
+                <div className="jumbotron">
                   <p>
                     def new_decorator(func):
                     <br />
@@ -2230,7 +2266,7 @@ export const PythonNotes = () => {
                   </p>
                 </div>
 
-                <div class="jumbotron">
+                <div className="jumbotron">
                   <p>
                     def new_decorator(func):
                     <br />
@@ -2263,7 +2299,7 @@ export const PythonNotes = () => {
                 </div>
               </div>
 
-              <div class="jumbotron">
+              <div className="jumbotron">
                 <p>import datetime</p>
 
                 <p>
@@ -2337,10 +2373,12 @@ export const PythonNotes = () => {
           <Accordion.Header>Testing Methodologies</Accordion.Header>
           <Accordion.Body>
             <div className="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th></th>
-                  <th>Testing Methodologies</th>
+                  <tr>
+                    <th></th>
+                    <th>Testing Methodologies</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -2393,7 +2431,7 @@ export const PythonNotes = () => {
           <Accordion.Header>Resources</Accordion.Header>
           <Accordion.Body>
             <div className="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <tbody>
                   <tr>
                     <td>

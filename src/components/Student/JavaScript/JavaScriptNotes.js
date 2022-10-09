@@ -9,16 +9,18 @@ export const JavaScriptNotes = () => {
         <Accordion.Item eventKey="0">
           <Accordion.Header>Basics</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+            <div className="table-responsive text-start">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th></th>
-                  <th></th>
+                  <tr>
+                    <th></th>
+                    <th></th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>JavaScript Basics</td>
-                    <td class="grid-table">
+                    <td className="grid-table">
                       <p>High Level Programming Language</p>
                       <p>Frontend and BackEnd Language</p>
                       <p>Interpreted Language (uses Node)</p>
@@ -72,9 +74,9 @@ export const JavaScriptNotes = () => {
         <Accordion.Item eventKey="1">
           <Accordion.Header>Variables and Data Types</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
+            <div className="table-responsive text-start">
               <div>
-                <table class="table table-striped table-dark text-white">
+                <table className="table table-striped table-dark text-white">
                   <tbody>
                     <tr>
                       <td>What is a Variable?</td>
@@ -105,13 +107,13 @@ export const JavaScriptNotes = () => {
                         <br />
                         Variables should make sense to someone else
                         <br />
-                        <span class="text-success">
-                          <i class="fas fa-check"></i>
+                        <span className="text-success">
+                          <i className="fas fa-check"></i>
                         </span>{" "}
                         hairColor = 'brown';
                         <br />
-                        <span class="text-danger">
-                          <i class="fas fa-times"></i>
+                        <span className="text-danger">
+                          <i className="fas fa-times"></i>
                         </span>{" "}
                         hairColor = 73;
                         <br />
@@ -205,11 +207,13 @@ export const JavaScriptNotes = () => {
         <Accordion.Item eventKey="2">
           <Accordion.Header>Printing and Commenting</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+            <div className="table-responsive text-start">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th></th>
-                  <th>Printing</th>
+                  <tr>
+                    <th></th>
+                    <th>Printing</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -254,10 +258,12 @@ export const JavaScriptNotes = () => {
                   </tr>
                 </tbody>
               </table>
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th></th>
-                  <th>Comments</th>
+                  <tr>
+                    <th></th>
+                    <th>Comments</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -305,11 +311,13 @@ export const JavaScriptNotes = () => {
         <Accordion.Item eventKey="3">
           <Accordion.Header>Numbers</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+            <div className="table-responsive text-start">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th>Function</th>
-                  <th>Explanation</th>
+                  <tr>
+                    <th>Function</th>
+                    <th>Explanation</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -331,21 +339,21 @@ export const JavaScriptNotes = () => {
                   <tr>
                     <td>Arithmetic</td>
                     <td>
-                      <i class="fas fa-plus"></i>
+                      <i className="fas fa-plus"></i>
                       <br />
-                      <i class="fas fa-minus"></i>
+                      <i className="fas fa-minus"></i>
                       <br />
-                      <i class="fas fa-asterisk"></i>
+                      <i className="fas fa-asterisk"></i>
                       <br />
-                      <i class="fas fa-slash fa-rotate-90 fa-xs"></i>
+                      <i className="fas fa-slash fa-rotate-90 fa-xs"></i>
                       <br />
-                      <i class="fas fa-slash fa-rotate-90 fa-xs"></i>
-                      <i class="fas fa-slash fa-rotate-90 fa-xs"></i>
+                      <i className="fas fa-slash fa-rotate-90 fa-xs"></i>
+                      <i className="fas fa-slash fa-rotate-90 fa-xs"></i>
                       <br />
-                      <i class="fas fa-percent fas-xs"></i>
+                      <i className="fas fa-percent fas-xs"></i>
                       <br />
-                      <i class="fas fa-asterisk"></i>
-                      <i class="fas fa-asterisk"></i>
+                      <i className="fas fa-asterisk"></i>
+                      <i className="fas fa-asterisk"></i>
                       <br />
                       <br />
                       Order of Operations PEMDAS
@@ -374,7 +382,7 @@ export const JavaScriptNotes = () => {
                       <br />
                       console.log(totalBill)
                       <br />
-                      <p class="text-success">110.0</p>
+                      <p className="text-success">110.0</p>
                       <br />
                       var myBill = 100
                       <br />
@@ -384,7 +392,7 @@ export const JavaScriptNotes = () => {
                       <br />
                       console.log(totalBill)
                       <br />
-                      <p class="text-danger">100.1</p>
+                      <p className="text-danger">100.1</p>
                     </td>
                   </tr>
                 </tbody>
@@ -398,15 +406,17 @@ export const JavaScriptNotes = () => {
         <Accordion.Item eventKey="4">
           <Accordion.Header>Strings</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
-              <p class="text-primary">
+            <div className="table-responsive text-start">
+              <p className="text-primary">
                 var myString = 'The quick brown fox jumped over the fence'
               </p>
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th width="20%">Function</th>
-                  <th width="40%">Usage</th>
-                  <th width="40%">Result</th>
+                  <tr>
+                    <th width="20%">Function</th>
+                    <th width="40%">Usage</th>
+                    <th width="40%">Result</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -561,13 +571,15 @@ export const JavaScriptNotes = () => {
         <Accordion.Item eventKey="5">
           <Accordion.Header>Lists</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
+            <div className="table-responsive text-start">
               <div>
-                <table class="table table-striped table-dark text-white">
+                <table className="table table-striped table-dark text-white">
                   <thead>
-                    <th width="20%">Function</th>
-                    <th width="40%">Usage</th>
-                    <th width="40%">Result</th>
+                    <tr>
+                      <th width="20%">Function</th>
+                      <th width="40%">Usage</th>
+                      <th width="40%">Result</th>
+                    </tr>
                   </thead>
                   <tbody>
                     <tr>
@@ -584,7 +596,7 @@ export const JavaScriptNotes = () => {
                           Items within lists can be numbers, strings, lists,
                           dictionaries, basically anything
                         </p>
-                        <p class="text-primary">
+                        <p className="text-primary">
                           var myArray = ['a','b','c','d','e']
                         </p>
                       </td>
@@ -758,13 +770,15 @@ export const JavaScriptNotes = () => {
         <Accordion.Item eventKey="6">
           <Accordion.Header>Dictionaries</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
+            <div className="table-responsive text-start">
               <div>
-                <table class="table table-striped table-dark text-white">
+                <table className="table table-striped table-dark text-white">
                   <thead>
-                    <th width="20%">Function</th>
-                    <th width="40%">Usage</th>
-                    <th width="40%">Result</th>
+                    <tr>
+                      <th width="20%">Function</th>
+                      <th width="40%">Usage</th>
+                      <th width="40%">Result</th>
+                    </tr>
                   </thead>
                   <tbody>
                     <tr>
@@ -773,7 +787,7 @@ export const JavaScriptNotes = () => {
                         <p>mapping of key value pairs, Unordered, Mutable</p>
                         <p>
                           Creation of a list is done with{" "}
-                          <span class="text-primary">{`{ , }`}</span> and items
+                          <span className="text-primary">{`{ , }`}</span> and items
                           are separated with commas.
                         </p>
                         <p>
@@ -783,7 +797,7 @@ export const JavaScriptNotes = () => {
                       </td>
                       <td>
                         <p>Most Common used data type for exchanging data</p>
-                        <p class="text-primary">
+                        <p className="text-primary">
                           var myDict ={" "}
                           {`{key1: 'value1',key2: 'value2', key3: 'value3'}`}
                         </p>
@@ -872,11 +886,13 @@ export const JavaScriptNotes = () => {
         <Accordion.Item eventKey="7">
           <Accordion.Header>Booleans</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+            <div className="table-responsive text-start">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <td>Function</td>
-                  <td>Value</td>
+                  <tr>
+                    <td>Function</td>
+                    <td>Value</td>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -894,41 +910,43 @@ export const JavaScriptNotes = () => {
         <Accordion.Item eventKey="8">
           <Accordion.Header>Control Flow - If Else For While</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
+            <div className="table-responsive text-start">
               <div>
-                <table class="table table-striped table-dark text-white">
+                <table className="table table-striped table-dark text-white">
                   <thead>
-                    <th width="20%">Category</th>
-                    <th width="40%">Functions</th>
-                    <th width="40%">Example</th>
+                    <tr>
+                      <th width="20%">Category</th>
+                      <th width="40%">Functions</th>
+                      <th width="40%">Example</th>
+                    </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>Comparison Operators</td>
                       <td>
                         <p>
-                          <i class="fas fa-greater-than fa-xs"></i> Greater than
+                          <i className="fas fa-greater-than fa-xs"></i> Greater than
                         </p>
                         <p>
-                          <i class="fas fa-less-than fa-xs"></i> Less Than
+                          <i className="fas fa-less-than fa-xs"></i> Less Than
                         </p>
                         <p>
-                          <i class="fas fa-greater-than fa-xs"></i>{" "}
-                          <i class="fas fa-equals fa-xs"></i> Greater than or
+                          <i className="fas fa-greater-than fa-xs"></i>{" "}
+                          <i className="fas fa-equals fa-xs"></i> Greater than or
                           Equal To{" "}
                         </p>
                         <p>
-                          <i class="fas fa-less-than fa-xs"></i>{" "}
-                          <i class="fas fa-equals fa-xs"></i> Less than or equal
+                          <i className="fas fa-less-than fa-xs"></i>{" "}
+                          <i className="fas fa-equals fa-xs"></i> Less than or equal
                           to
                         </p>
                         <p>
-                          <i class="fas fa-equals fa-xs"></i>
-                          <i class="fas fa-equals fa-xs"></i>Equality
+                          <i className="fas fa-equals fa-xs"></i>
+                          <i className="fas fa-equals fa-xs"></i>Equality
                         </p>
                         <p>
-                          <i class="fas fa-exclamation fa-xs"></i>
-                          <i class="fas fa-equals fa-xs"></i> Not equal
+                          <i className="fas fa-exclamation fa-xs"></i>
+                          <i className="fas fa-equals fa-xs"></i> Not equal
                         </p>
                         <p>and / or</p>
                       </td>
@@ -1075,12 +1093,14 @@ export const JavaScriptNotes = () => {
         <Accordion.Item eventKey="9">
           <Accordion.Header>Functions</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+            <div className="table-responsive text-start">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th>Item</th>
-                  <th>Explanation</th>
-                  <th>Example</th>
+                  <tr>
+                    <th>Item</th>
+                    <th>Explanation</th>
+                    <th>Example</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -1208,12 +1228,14 @@ export const JavaScriptNotes = () => {
         <Accordion.Item eventKey="10">
           <Accordion.Header>Object Oriented Programming</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+            <div className="table-responsive text-start">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th width="20%">Item</th>
-                  <th width="40%">Explanation</th>
-                  <th width="40%">Example</th>
+                  <tr>
+                    <th width="20%">Item</th>
+                    <th width="40%">Explanation</th>
+                    <th width="40%">Example</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -1447,11 +1469,13 @@ export const JavaScriptNotes = () => {
                   </tr>
                 </tbody>
               </table>
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th width="20%">Item</th>
-                  <th width="40%">Explanation</th>
-                  <th width="40%">Example</th>
+                  <tr>
+                    <th width="20%">Item</th>
+                    <th width="40%">Explanation</th>
+                    <th width="40%">Example</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -1509,12 +1533,14 @@ export const JavaScriptNotes = () => {
         <Accordion.Item eventKey="11">
           <Accordion.Header>Errors and Exceptions</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+            <div className="table-responsive text-start">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th width="20%">Item</th>
-                  <th width="40%">Explanation</th>
-                  <th width="40%">Example</th>
+                  <tr>
+                    <th width="20%">Item</th>
+                    <th width="40%">Explanation</th>
+                    <th width="40%">Example</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -1634,11 +1660,13 @@ export const JavaScriptNotes = () => {
             Document Object Model (DOM) Manipulation
           </Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+            <div className="table-responsive text-start">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th></th>
-                  <th>Document Object Model (DOM) Manipulation</th>
+                  <tr>
+                    <th></th>
+                    <th>Document Object Model (DOM) Manipulation</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>

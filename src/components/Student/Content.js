@@ -22,18 +22,18 @@ export const StudentContent = () => {
                 </Link>
             </div>
             <div className="contentCard mt-4">
-                <Link className='link' to='/student/javascriptnotes'>
+                <Link className='link' to='/student/javascriptpage'>
                     <p>JavaScript</p>
                 </Link>
                 
             </div>
             <div className="contentCard mt-4">
-                <Link className='link' to='/student/pythonnotes'>
+                <Link className='link' to='/student/pythonpage'>
                     <p>Python</p>
                 </Link>
             </div>
             <div className="contentCard mt-4">
-                <Link className='link' to='/student/frontendnotes'>
+                <Link className='link' to='/student/frontendpage'>
                     <p>FrontEnd</p>
                 </Link>
             </div>

@@ -30,6 +30,13 @@ li{
   opacity: 0.7;
 }
 
+.jumbotron {
+  background-color: var(--tertiary);
+  text-align: left;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
 .heroHeader{
   font-size: 3rem;
   font-weight: bold;
@@ -257,12 +264,12 @@ li{
   margin: 0;
 }
 
-.pythonSection {
+.pythonSection, .apiSection {
   margin-top: 3rem;
   background-color: var(--tertiary);
 }
 
-.javascriptSection {
+.javascriptSection, .djangoSection {
   margin-top: 3rem;
   background-color: var(--secondary);
 }

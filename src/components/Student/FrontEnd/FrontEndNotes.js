@@ -1,21 +1,22 @@
 import { Accordion } from "react-bootstrap";
-import {Link} from 'react-router-dom'
 import boxModel from '../../../assets/box_model.png'
 
 export const FrontEndNotes = () => {
   return (
     <div className="contentDiv notes">
-      <h1 class="display-4">FrontEnd Notes</h1>
+      <h1 className="display-4">FrontEnd Notes</h1>
 
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>Hyper Text Markup Language (HTML)</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+            <div className="table-responsive text-start">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th>Property</th>
-                  <th>Explanation</th>
+                  <tr>
+                    <th>Property</th>
+                    <th>Explanation</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -93,7 +94,7 @@ export const FrontEndNotes = () => {
                     <td></td>
                     <td>
                       <a
-                        class="btn btn-primary btn-sm"
+                        className="btn btn-primary btn-sm"
                         href="https://linusidom.github.io/spotskillz_static/htmlcheatsheet.html"
                         target="_blank"
                         rel='noreferrer'
@@ -113,11 +114,13 @@ export const FrontEndNotes = () => {
         <Accordion.Item eventKey="1">
           <Accordion.Header>HTML Requests and Reponses</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
-              <table class="table table-striped table-dark text-white">
+            <div className="table-responsive text-start">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th width="30%">Request Type</th>
-                  <th>Definition</th>
+                  <tr>
+                    <th width="30%">Request Type</th>
+                    <th>Definition</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -160,10 +163,12 @@ export const FrontEndNotes = () => {
                   </tr>
                 </tbody>
               </table>
-              <table class="table table-striped table-dark text-white">
+              <table className="table table-striped table-dark text-white">
                 <thead>
-                  <th width="30%">Response Type</th>
-                  <th>Definition</th>
+                  <tr>
+                    <th width="30%">Response Type</th>
+                    <th>Definition</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -240,7 +245,7 @@ export const FrontEndNotes = () => {
               content much faster
             </p>
 
-            <div class="jumbotron">
+            <div className="jumbotron">
               <h5>Steps</h5>
               <ol>
                 <li>
@@ -265,11 +270,13 @@ export const FrontEndNotes = () => {
         <Accordion.Item eventKey="3">
           <Accordion.Header>Cascading Style Sheets (CSS)</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
-              <table class="table table-striped table-dark text-white table-responsive-sm">
+            <div className="table-responsive text-start">
+              <table className="table table-striped table-dark text-white table-responsive-sm">
                 <thead>
-                  <th>Property</th>
-                  <th>Explanation</th>
+                  <tr>
+                    <th>Property</th>
+                    <th>Explanation</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -364,9 +371,10 @@ export const FrontEndNotes = () => {
                     <td></td>
                     <td>
                       <a
-                        class="btn btn-primary btn-sm"
+                        className="btn btn-primary btn-sm"
                         href="https://linusidom.github.io/spotskillz_static/csscheatsheet.html"
                         target="_blank"
+                        rel='noreferrer'
                       >
                         CSS Cheat Sheet
                       </a>
@@ -374,10 +382,12 @@ export const FrontEndNotes = () => {
                   </tr>
                 </tbody>
               </table>
-              <table class="table table-striped table-dark text-white table-responsive-sm">
+              <table className="table table-striped table-dark text-white table-responsive-sm">
                 <thead>
-                  <th></th>
-                  <th>CSS Box</th>
+                  <tr>
+                    <th></th>
+                    <th>CSS Box</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -428,7 +438,7 @@ export const FrontEndNotes = () => {
           <Accordion.Header>
             Chrome and Mozilla Developer Tools
           </Accordion.Header>
-          <Accordion.Body>
+          <Accordion.Body className='text-start'>
             <p>Menu Bar -&gt; View -&gt; Developer -&gt; Developer Tools</p>
             <p>
               Real time insights into how the browser interprets the page and
@@ -447,8 +457,8 @@ export const FrontEndNotes = () => {
         <Accordion.Item eventKey="5">
           <Accordion.Header>Resources</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive text-start">
-              <table class="table table-striped table-dark text-white text-center">
+            <div className="table-responsive text-start">
+              <table className="table table-striped table-dark text-white text-center">
                 <tbody>
                   <tr>
                     <td>
@@ -456,6 +466,7 @@ export const FrontEndNotes = () => {
                         <a
                           href="https://www.w3schools.com/css/css_intro.asp"
                           target="_blank"
+                          rel='noreferrer'
                         >
                           W3 Schools
                         </a>
@@ -468,6 +479,7 @@ export const FrontEndNotes = () => {
                         <a
                           href="https://www.youtube.com/watch?v=yfoY53QXEnI&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=2"
                           target="_blank"
+                          rel='noreferrer'
                         >
                           Traversy Media HTML CSS Playlist
                         </a>
@@ -477,7 +489,7 @@ export const FrontEndNotes = () => {
                   <tr>
                     <td>
                       <p>
-                        <a href="https://www.coolors.co" target="_blank">
+                        <a href="https://www.coolors.co" target="_blank" rel='noreferrer'>
                           Color Palette Generator
                         </a>
                       </p>
@@ -486,7 +498,7 @@ export const FrontEndNotes = () => {
                   <tr>
                     <td>
                       <p>
-                        <a href="https://codepen.io/tag/css%20animation?__cf_chl_jschl_tk__=20fcc37ac7d790891d7b30c9c1e454cdaec200f0-1584979801-0-ATrvFIVYo3QleH_PD5pEJkgE-0ZxcQb4gi8ZHNxI2SgCaYyIJ85G4sPNc_DEweiDukEyIfyGYwnICrbgzunTVE4mOSq6CF6PRufACfcyTQXvlgUmEYSk9nQ0Jz57_cRf-gsmb_qfneOOGIYXGxzrqLA4ajDqcJZhk9HQKsQLOwU6O3adX-BgeAqSE7qQY2XT_gL3lgKccG5yR9l_u45amhO8E58REh0ieYShMVMlt5ojrjnvHnSenw0lRu7iOdZrYhsk-Wq7a1WTaruMgRKqIOMWg21hIeJmX-iAUcNNQ1Ejdn12BC1vwt6BTQblbHZYL_wrrMdrG1IGV68DlKVhZrc4m0pdCk-HfK5cR1j-qmsP">
+                        <a href="https://codepen.io/tag/css%20animation?__cf_chl_jschl_tk__=20fcc37ac7d790891d7b30c9c1e454cdaec200f0-1584979801-0-ATrvFIVYo3QleH_PD5pEJkgE-0ZxcQb4gi8ZHNxI2SgCaYyIJ85G4sPNc_DEweiDukEyIfyGYwnICrbgzunTVE4mOSq6CF6PRufACfcyTQXvlgUmEYSk9nQ0Jz57_cRf-gsmb_qfneOOGIYXGxzrqLA4ajDqcJZhk9HQKsQLOwU6O3adX-BgeAqSE7qQY2XT_gL3lgKccG5yR9l_u45amhO8E58REh0ieYShMVMlt5ojrjnvHnSenw0lRu7iOdZrYhsk-Wq7a1WTaruMgRKqIOMWg21hIeJmX-iAUcNNQ1Ejdn12BC1vwt6BTQblbHZYL_wrrMdrG1IGV68DlKVhZrc4m0pdCk-HfK5cR1j-qmsP" rel='noreferrer'>
                           CSS Animations Done in CodePen
                         </a>
                       </p>

@@ -3,7 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 export const BasicReq = () => {
   return (
     <div className="notes">
-      <h1 class="headerText">Pre-Requisites and Setup</h1>
+      <h1 className="headerText">Pre-Requisites and Setup</h1>
       <Accordion>
         <Accordion.Item eventKey="6">
           <Accordion.Header>
@@ -156,7 +156,7 @@ export const BasicReq = () => {
           <Accordion.Header>Systems Administration</Accordion.Header>
           <Accordion.Body>
             <div className="table-responsive text-start">
-              <table class="table table-dark table-striped text-start">
+              <table className="table table-dark table-striped text-start">
                 <thead>
                   <tr>
                     <th>Task</th>
@@ -252,8 +252,8 @@ export const BasicReq = () => {
         <Accordion.Item eventKey="4">
           <Accordion.Header>Collaboration, Version Control</Accordion.Header>
           <Accordion.Body>
-            <div class="table-responsive">
-              <table class="table table-striped table-dark text-white text-start">
+            <div className="table-responsive">
+              <table className="table table-striped table-dark text-white text-start">
                 <thead>
                   <tr>
                     <th>Git - Local Version Control</th>
@@ -336,7 +336,7 @@ export const BasicReq = () => {
                   </tr>
                 </tbody>
               </table>
-              <table class="table table-striped table-dark text-white text-start">
+              <table className="table table-striped table-dark text-white text-start">
                 <thead>
                   <tr>
                     <th>GitHub - Cloud Collaboration Service</th>
